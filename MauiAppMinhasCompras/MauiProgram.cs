@@ -1,6 +1,7 @@
 ﻿using Microsoft.Extensions.Logging;
 
 namespace MauiAppMinhasCompras
+
 {
     public static class MauiProgram
     {
@@ -16,7 +17,7 @@ namespace MauiAppMinhasCompras
                 });
 
 #if DEBUG
-    		builder.Logging.AddDebug();
+            builder.Logging.AddDebug();
 #endif
 
             return builder.Build();
